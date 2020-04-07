@@ -1,9 +1,7 @@
 {
   "name": "root",
   "private": true,
-  "scripts": {
-    "compile": "lerna run --scope @umijs/hooks compile",
-  },
+  "scripts": {},
   "devDependencies": {
     "lerna": "^3.20.2"
   }
