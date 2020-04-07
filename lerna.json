@@ -1,0 +1,12 @@
+{
+  "packages": [
+    "packages/*"
+  ],
+  "command": {
+    "version": {
+      "allowBranch": "master",
+      "includeMergedTags": true
+    }
+  },
+  "version": "0.0.0"
+}
