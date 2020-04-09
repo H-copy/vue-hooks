@@ -7,7 +7,7 @@
 ## Install
 
 ```shell
-yarn add left-vue-hooks @vue/composition-api
+yarn add  @vue/composition-api left-vue-hooks
 
 or
 
