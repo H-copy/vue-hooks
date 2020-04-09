@@ -1,5 +1,5 @@
 import { ref, watch, computed } from '@vue/composition-api'
-import { getVmElement } from '@/utils/isVm'
+import { getVmElement } from './util/isVm'
 
 
 

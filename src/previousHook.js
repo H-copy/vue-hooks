@@ -6,7 +6,7 @@ import { ref, watch } from '@vue/composition-api'
  * @param { any } initVal 初始值
  * @param { function | undefined } compare 校验函数 
  */
-export default function previouosHook(initVal, compare){
+export default function previousHook(initVal, compare){
     const curRef = ref(initVal)
     const prevRef = ref(null)
     

@@ -35,7 +35,7 @@ function getStoreValue(storage, key, defaultValue){
  * const updateNickname = name => updateState({ ...userInfo.value, nickname: name }) 
  * 
  */
-export default function stroageState(storage, key, defaultValue){
+export default function strongeStateHook(storage, key, defaultValue){
 
     const state = ref( getStoreValue(storage, key, defaultValue) )
     

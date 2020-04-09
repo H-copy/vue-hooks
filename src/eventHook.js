@@ -44,3 +44,9 @@ export function vmEventHook (name, handler, vm, option){
     return remove
 
 }
+
+
+export default{
+    vmEventHook,
+    eleEventHook
+}

@@ -1,24 +1,53 @@
 
-export { default as boolHook } from './boolHook'
-export { default as clickAwayHook } from './clickAwayHook'
-export { default as counterHook } from './counterHook'
-export { default as debounceFnHook } from './debounceFnHook'
-export { default as debounceHook } from './debounceHook'
-export { eleEventHook } from './eleEventHook'
-export { vmEventHook } from './eleEventHook'
-export { default as hoverHook } from './hoverHook'
-export { default as localStorageStateHook } from './localStorageStateHook'
-export { default as sessionStorageStateHook } from './sessionStorageStateHook'
-export { default as stroageState } from './stroageState'
-export { default as mapHook } from './mapHook'
-export { default as mouseHook } from './mouseHook'
-export { default as previouosHook } from './previouosHook'
-export { default as scrollHook } from './scrollHook'
-export { default as selectionsHook } from './selectionsHook'
-export { default as setHook } from './setHook'
-export { default as setRefHook } from './setRefHook'
-export { default as sizeHook } from './sizeHook'
-export { default as throttleFnHook } from './throttleFnHook'
-export { default as throttleHook } from './throttleHook'
-export { default as toggleHook } from './toggleHook'
+import boolHook from './boolHook'
+import clickAwayHook from './clickAwayHook'
+import counterHook from './counterHook'
+import debounceFnHook from './debounceFnHook'
+import debounceHook from './debounceHook'
+
+import hoverHook from './hoverHook'
+import localStorageStateHook from './localStorageStateHook'
+import sessionStorageStateHook from './sessionStorageStateHook'
+import strongeStateHook from './strongeStateHook'
+import mapHook from './mapHook'
+import mouseHook from './mouseHook'
+import previousHook from './previousHook'
+import scrollHook from './scrollHook'
+import selectionsHook from './selectionsHook'
+import setHook from './setHook'
+import setRefHook from './setRefHook'
+import sizeHook from './sizeHook'
+import throttleFnHook from './throttleFnHook'
+import throttleHook from './throttleHook'
+import toggleHook from './toggleHook'
+
+
+import { eleEventHook, vmEventHook } from './eventHook'
+
+export {
+
+    eleEventHook,
+    vmEventHook,
+    boolHook,
+    clickAwayHook,
+    counterHook,
+    debounceFnHook,
+    debounceHook,
+    hoverHook,
+    localStorageStateHook,
+    sessionStorageStateHook,
+    strongeStateHook,
+    mapHook,
+    mouseHook,
+    previousHook,
+    scrollHook,
+    selectionsHook,
+    setHook,
+    setRefHook,
+    sizeHook,
+    throttleFnHook,
+    throttleHook,
+    toggleHook
+    
+}
 
