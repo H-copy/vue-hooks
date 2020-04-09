@@ -1,0 +1,29 @@
+{
+  "name": "left-vue-hooks",
+  "version": "1.0.0",
+  "description": "vue hook",
+  "main": "src/index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/H-copy/vue-hooks.git"
+  },
+  "keywords": [
+    "vue",
+    "hook",
+    "components-api"
+  ],
+  "author": "copyl-left",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/H-copy/vue-hooks/issues"
+  },
+  "dependencies": {
+    "resize-observer-polyfill": "^1.5.1"
+  },
+  "peerDependencies": {
+    "@vue/composition-api": "^0.5.0",
+    "vue": "^2.6.11"
+  },
+  "homepage": "https://github.com/H-copy/vue-hooks#readme"
+}
