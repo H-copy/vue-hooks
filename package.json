@@ -2,8 +2,11 @@
   "name": "left-vue-hooks",
   "version": "0.0.1",
   "description": "vue hook",
-  "main": "src/index.js",
-  "scripts": {},
+  "main": "./lib/index.js",
+  "module": "./es/index.js",
+  "scripts": {
+    "build": "father build"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/H-copy/vue-hooks.git"
@@ -12,6 +15,12 @@
     "vue",
     "hook",
     "components-api"
+  ],
+  "files": [
+    "dist",
+    "lib",
+    "es",
+    "package.json"
   ],
   "author": "copyl-left",
   "license": "ISC",
@@ -25,5 +34,8 @@
     "@vue/composition-api": "^0.5.0",
     "vue": "^2.6.11"
   },
-  "homepage": "https://github.com/H-copy/vue-hooks#readme"
+  "homepage": "https://github.com/H-copy/vue-hooks#readme",
+  "devDependencies": {
+    "father": "^2.29.2"
+  }
 }
