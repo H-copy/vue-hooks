@@ -25,7 +25,7 @@
 
 <script>
 // import { ref } from '@vue/composition-api'
-import mouseHook from '@/hooks/mouseHook'
+import mouseHook from 'left-vue-hooks'
 
 export default { 
 
