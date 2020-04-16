@@ -4,29 +4,9 @@
 
 
 
-### Params
-
-| 名称       | 说明     | 默认值 |
-| ---------- | -------- | ------ |
-| initStatus | 初始状态 | false  |
-
-
-
-###  Result
-
-| 名称     | 说明            |                |
-| -------- | --------------- | -------------- |
-| status   | 当前状态        | bool           |
-| setTrue  | 状态设置为true  | () => void     |
-| setFalse | 状态设置为false | () => void     |
-| toggle   | 状态切换        | (bool) => void |
-
-
-
-### Example
+### Uesage
 
 ```vue
-
 <template>
 		
 	<h1 v-if='state'>
@@ -53,4 +33,26 @@ export default {
 
 
 ```
+
+
+
+
+
+### Params
+
+| 名称       | 说明     | 默认值 |
+| ---------- | -------- | ------ |
+| initStatus | 初始状态 | false  |
+
+
+
+###  Result
+
+| 名称     | 说明            |                |
+| -------- | --------------- | -------------- |
+| status   | 当前状态        | bool           |
+| setTrue  | 状态设置为true  | () => void     |
+| setFalse | 状态设置为false | () => void     |
+| toggle   | 状态切换        | (bool) => void |
+
 
