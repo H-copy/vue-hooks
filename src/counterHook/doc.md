@@ -38,7 +38,8 @@ export default {
 	
 	setup(){
 		const [ current, { inc, dec, reset, set } ] = counterHook(0， { max: 10, min: -10 })		
-
+		
+		return { current, inc, dec, reset, set }
 	}
 
 }
