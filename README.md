@@ -102,7 +102,7 @@ export default {
 - mapHook
 - setHook
 - setRefHook
-- boolHook
+- [boolHook](./src/boolHook/doc.md)
 - toggleHook
 - previousHook
 - counterHook
