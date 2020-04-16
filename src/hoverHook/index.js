@@ -4,7 +4,7 @@ import boolHook from './boolHook'
 
 /**
  * dom 鼠标悬浮事件 hook
- * @param { { dom, onEnter, onLeave } } options 配置  dom 初始绑定dom  onEnter 滑出事件 onLeave 滑出事件 
+ * @param { { dom, onEnter, onLeave } } options 配置  dom 初始绑定dom  onEnter 滑入事件 onLeave 滑出事件 
  * @returns { [ state, element ] } state 滑入状态  element dom绑定ref
  * 
  * @example
