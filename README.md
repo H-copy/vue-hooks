@@ -93,7 +93,7 @@ export default {
 #### SideEffect
 
 - debounceFnHook
-- debounceHook
+- [debounceHook](./src/debounceHook/doc.md)
 - throttleFnHook
 - throttleHook
 
@@ -105,19 +105,19 @@ export default {
 - [boolHook](./src/boolHook/doc.md)
 - toggleHook
 - previousHook
-- counterHook
+- [counterHook](./src/counterHook/doc.md)
 
 #### Cache
 
-- localStorageStateHook
+- [localStorageStateHook](./src/localStorageStateHook/doc.md)
 - sessionStorageStateHook
 - strongeStateHook
 
 #### Dom
 
 - clickAwayHook
-- hoverHook
-- mouseHook
+- [hoverHook](./src/hoverHook/doc.md)
+- [mouseHook](./src/mouseHook/doc.md)
 - scrollHook
 - sizeHook
 - eleEventHook
