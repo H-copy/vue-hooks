@@ -147,5 +147,7 @@ export default {
 | 名称    | 说明         | 类型       |
 | ------- | ------------ | ---------- |
 | remove  | 事件移除函数 | () => void |
+| element | 绑定元素 ref | ref        |
+| reBind  | 重绑定       | () => void |
 
 
