@@ -30,8 +30,5 @@ export default function throttleFnHook(fn, wait){
         }, wait)
     }
     
-    return {
-        cancel,
-        run
-    }
+    return [ run, cancel ]
 }
