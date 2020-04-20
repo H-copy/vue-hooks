@@ -53,7 +53,7 @@ Vue.use(VueCompositionAPI);
 
 <script>
 import { reactive } from '@vue/composition-api'
-import throttleHook from '@/hooks/throttleHook'
+import { useThrottle } from 'left-vue-hooks'
 
 
 export default {
@@ -61,7 +61,7 @@ export default {
   setup(){
     const state = reactive({name: 'jeck', age: 23})
     const add = () => state.age += 1
-    const [ info ] = throttleHook(() => state.age, 1000) // 防抖hook
+    const [ info ] = useThrottle(() => state.age, 1000) // 防抖hook
 
    return {
      add,
@@ -86,37 +86,41 @@ export default {
 
 #### UI
 
-- [selectionsHook](./src/selectionsHook) 
+- [useSelections](./src/useSelections/README.md) 
+
 
 #### SideEffect
 
-- [debounceFnHook](./src/debounceFnHook)
-- [debounceHook](./src/debounceHook/doc.md)
-- [throttleFnHook](./src/throttleFnHook)
-- [throttleHook](./src/throttleHook)
+- [useDebounceFn](./src/useDebounceFn/README.md)
+- [useDebounce](./src/useDebounce/README.md)
+- [useThrottleFn](./src/useThrottleFn/README.md)
+- [useThrottle](./src/useThrottle/README.md)
+
 
 #### State
 
-- [mapHook](./src/mapHook)
-- [setHook](./src/setHook)
-- [setRefHook](./src/setRefHook)
-- [boolHook](./src/boolHook/doc.md)
-- [toggleHook](./src/toggleHook)
-- [previousHook](./src/previousHook)
-- [counterHook](./src/counterHook/doc.md)
+- [useMap](./src/useMap/README.md)
+- [useSet](./src/useSet/README.md)
+- [useSetRef](./src/useSetRef/README.md)
+- [useBool](./src/useBool/README.md)
+- [useToggle](./src/useToggle/README.md)
+- [usePrevious](./src/usePrevious/README.md)
+- [useCounter](./src/useCounter/README.md)
+
 
 #### Cache
 
-- [localStorageStateHook](./src/localStorageStateHook/doc.md)
-- [sessionStorageStateHook](./src/sessionStorageStateHook)
-- [strongeStateHook](./src/strongeStateHook)
+- [useLocalStorageState](./src/useLocalStorageState/README.md)
+- [useSessionStorageState](./src/useSessionStorageState/README.md)
+- [useStrongeState](./src/useStrongeState/README.md)
+
 
 #### Dom
 
-- [clickAwayHook](./src/clickAwayHook)
-- [hoverHook](./src/hoverHook/doc.md)
-- [mouseHook](./src/mouseHook/doc.md)
-- [scrollHook](./src/scrollHook)
-- [sizeHook](./src/sizeHook)
-- [eleEventHook](./src/eleEventHook)
-- [vmEventHook](./src/vmEventHook)
+- [useClickAway](./src/useClickAway/README.md)
+- [useHover](./src/useHover/README.md)
+- [useMouse](./src/useMouse/README.md)
+- [useScroll](./src/useScroll/README.md)
+- [useSize](./src/useSize/README.md)
+- [useEleEvent](./src/useEvent/README.md)
+- [useVmEvent](./src/useEvent/README.md)
