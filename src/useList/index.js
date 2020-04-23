@@ -1,5 +1,5 @@
 import { watch } from '../env'
-import useSet from './useSet'
+import useSet from '../useSet'
 
 /**
  * 列表
