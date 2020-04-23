@@ -1,4 +1,5 @@
-import { watch } from '../env'
+import compositionApi  from '../env'
+const { ref, watch, computed } = compositionApi
 import useSet from '../useSet'
 
 /**
