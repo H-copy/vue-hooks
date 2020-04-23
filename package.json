@@ -1,6 +1,6 @@
 {
   "name": "left-vue-hooks",
-  "version": "0.0.4",
+  "version": "0.2.2",
   "description": "vue hook",
   "main": "./lib/index.js",
   "module": "./es/index.js",

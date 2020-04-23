@@ -1,6 +1,6 @@
 #  left-vue-hooks
 
-> 以[umi-hooks](https://github.com/umijs/hooks)为模板的 vue-hook 实现
+> [vx-hook](https://www.npmjs.com/package/vx-hook) 的  @vue/composition-api 同步版本。 是对umi及其他 react hook 的 vue实现
 
 
 
