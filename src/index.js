@@ -11,6 +11,7 @@ export { default as useThrottle }  from './useThrottle'
 // State
 export { default as useMap }  from './useMap'
 export { default as useSet }  from './useSet'
+export { default as useList }  from './useList'
 export { default as useSetRef }  from './useSetRef'
 export { default as useBool }  from './useBool'
 export { default as useToggle }  from './useToggle'

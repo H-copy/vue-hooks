@@ -101,6 +101,7 @@ export default {
 
 - [useMap](./src/useMap/README.md)
 - [useSet](./src/useSet/README.md)
+- [useList](./src/useList/README.md)
 - [useSetRef](./src/useSetRef/README.md)
 - [useBool](./src/useBool/README.md)
 - [useToggle](./src/useToggle/README.md)
