@@ -119,6 +119,8 @@ export default {
 #### Dom
 
 - [useClickAway](./src/useClickAway/README.md)
+- [useDrop](./src/useDrop/README.md)
+- [useDrag](./src/useDrop/README.md)
 - [useHover](./src/useHover/README.md)
 - [useMouse](./src/useMouse/README.md)
 - [useScroll](./src/useScroll/README.md)
