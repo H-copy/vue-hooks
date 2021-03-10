@@ -1,5 +1,7 @@
 #  left-vue-hooks
 
+## 项目TS重构已迁移到 https://www.npmjs.com/package/vx-hooks
+
 > [vx-hook](https://www.npmjs.com/package/vx-hook) 的  @vue/composition-api 同步版本。 是对umi及其他 react hook 的 vue实现
 
 
