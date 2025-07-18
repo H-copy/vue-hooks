@@ -46,6 +46,6 @@
   },
   "homepage": "https://github.com/H-copy/vue-hooks#readme",
   "devDependencies": {
-    "father": "^2.29.2"
+    "father": "^4.6.1"
   }
 }
